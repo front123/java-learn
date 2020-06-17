@@ -1,4 +1,7 @@
-package model;
+package Main;
+
+import model.Gender;
+import model.Student;
 
 public class Main {
 

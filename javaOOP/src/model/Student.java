@@ -5,7 +5,7 @@ public class Student {
     private Gender gender;
     private Integer id;
 
-    Student(String name, Gender gender, Integer id){
+    public Student(String name, Gender gender, Integer id){
         this.name = name;
         this.gender = gender;
         this.id = id;
@@ -33,19 +33,5 @@ public class Student {
 
     public void setId(Integer id) {
         this.id = id;
-    }
-}
-enum Gender{
-    MAN("man"),
-    WOMAN("woman");
-
-    private String desc;
-
-    Gender(String desc){
-        this.desc = desc;
-    }
-
-    public String getDesc() {
-        return desc;
     }
 }
